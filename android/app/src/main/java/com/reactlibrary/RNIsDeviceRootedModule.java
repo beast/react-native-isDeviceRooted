@@ -1,7 +1,10 @@
 
 package com.reactlibrary;
 
-import com.facebook.react.bridge.*;
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.bridge.Callback;
 import java.io.File;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,14 +12,11 @@ import java.io.InputStreamReader;
 
 public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 
-	private final ReactContext mReactContext;
-    private Activity mActivity;
+	private final ReactApplicationContext reactContext;
 
-	public RNIsDeviceRootedModule(ReactApplicationContext reactContext, Activity activity) {
+	public RNIsDeviceRootedModule(ReactApplicationContext reactContext) {
 	super(reactContext);
-
-	mActivity = activity;
-	mReactContext = reactContext;
+	this.reactContext = reactContext;
 	}
 
 	@Override
