@@ -5,6 +5,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 
 public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 
@@ -21,8 +25,16 @@ public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 	}
 
 	@ReactMethod
-	public boolean isDeviceRooted() {
-		return checkRootMethod1() || checkRootMethod2() || checkRootMethod3();
+	public void isDeviceRooted(Callback successCallback, Callback errorCallback) {
+		try {
+			boolean isRooted = checkRootMethod1() || checkRootMethod2() || checkRootMethod3();
+			successCallback.invoke(isRooted);
+		}
+		catch (Exception e) {
+			errorCallback.invoke(e.getMessage());
+		}
+
+
 	}
 
 	private static boolean checkRootMethod1() {
