@@ -11,9 +11,19 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 public class RNIsDeviceRootedPackage implements ReactPackage {
-    @Override
-    public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-      return Arrays.<NativeModule>asList(new RNIsDeviceRootedModule(reactContext));
+
+    Activity mActivity;
+
+    public RNIsDeviceRootedPackage(Activity activity) {
+        mActivity = activity;
+    }
+    
+    public List<NativeModule> createNativeModules(
+            ReactApplicationContext reactContext) {
+        List<NativeModule> modules = new ArrayList<>();
+
+        modules.add(new RNZendeskChatModule(reactContext, mActivity));
+        return modules;
     }
 
     @Override
