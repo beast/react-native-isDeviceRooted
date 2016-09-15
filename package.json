@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-is-device-rooted",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Native Library to check if a device is rooted or jailbroken. It also checks if screen lock is enabled",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,10 @@
   ],
   "author": "yaoyang2004@gmail.com",
   "license": "MIT",
-  "homepage": "https://github.com/beast/react-native-isDeviceRooted",
-  "readme": "https://github.com/beast/react-native-isDeviceRooted#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beast/react-native-isDeviceRooted"
+  },
   "peerDependencies": {
     "react-native": "^0.27.0"
   }

@@ -1,0 +1,12 @@
+PODS:
+  - UIDevice-PasscodeStatus (0.0.2)
+
+DEPENDENCIES:
+  - UIDevice-PasscodeStatus (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  UIDevice-PasscodeStatus: 250b63a271e85223105ff4c1626056ce3aab3305
+
+PODFILE CHECKSUM: 8aa11de5251dd0c5035ec1ec59ca09f26e267e08
+
+COCOAPODS: 1.0.0.beta.5
