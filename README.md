@@ -15,6 +15,8 @@
 API 16+
 ### iOS
 iOS 8+
+### React Native
+RN 0.27+
 
 
 ## Getting started
@@ -62,4 +64,6 @@ RNIsDeviceRooted.isDeviceRooted((err) => { console.log(err); },
 RNIsDeviceRooted.isDeviceLocked((err) => { console.log(err); },
 		(isLocked) => { console.log(isLocked); });
 ```
-  
+ 
+##License 
+[MIT](./License)
