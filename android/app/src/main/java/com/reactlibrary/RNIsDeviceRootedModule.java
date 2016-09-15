@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package my.fin.isDeviceRooted;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -8,6 +8,8 @@ import com.facebook.react.bridge.Callback;
 import java.io.File;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import android.content.Context;
+import android.app.KeyguardManager;
 
 
 public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
@@ -25,7 +27,7 @@ public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 	}
 
 	@ReactMethod
-	public void isDeviceRooted(Callback successCallback, Callback errorCallback) {
+	public void isDeviceRooted(Callback errorCallback, Callback successCallback) {
 		try {
 			boolean isRooted = checkRootMethod1() || checkRootMethod2() || checkRootMethod3();
 			successCallback.invoke(isRooted);
@@ -33,9 +35,26 @@ public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 		catch (Exception e) {
 			errorCallback.invoke(e.getMessage());
 		}
-
-
 	}
+
+	@ReactMethod
+	public void isDeviceLocked(Callback errorCallback,Callback successCallback) {
+		try {
+			boolean isRooted = isLockScreenDisabled();
+			successCallback.invoke(isRooted);
+		}
+		catch (Exception e) {
+			errorCallback.invoke(e.getMessage());
+		}
+	}
+
+    private boolean isLockScreenDisabled() {
+        KeyguardManager km = (KeyguardManager) this.reactContext.getSystemService(Context.KEYGUARD_SERVICE);
+        if (km.isKeyguardSecure())
+        	return true;
+        else
+			return false;
+    }
 
 	private static boolean checkRootMethod1() {
 	    String buildTags = android.os.Build.TAGS;

@@ -1,5 +1,20 @@
 
-# react-native-is-device-rooted
+# react-native-is-device-rooted (WIP)
+
+##Features
+### Android
+[x] Check if the device is rooted.
+[x] Check if the device has screen lock enabled.
+### iOS (WIP)
+[] Check if the device is jailbroken. 
+[] Check if the device has screen lock enabled.
+
+##Requirements
+### Android
+API 16+
+### iOS
+iOS 8+
+
 
 ## Getting started
 
@@ -27,27 +42,23 @@
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-is-device-rooted'
-  	project(':react-native-is-device-rooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-is-device-rooted/android')
+  	project(':react-native-is-device-rooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-is-device-rooted/android/app')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
       compile project(':react-native-is-device-rooted')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNIsDeviceRooted.sln` in `node_modules/react-native-is-device-rooted/windows/RNIsDeviceRooted.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Cl.Json.RNIsDeviceRooted;` to the usings at the top of the file
-  - Add `new RNIsDeviceRootedPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
 ```javascript
 import RNIsDeviceRooted from 'react-native-is-device-rooted';
 
-// TODO: What do with the module?
-RNIsDeviceRooted;
+// Check if device is rooted or jailbroken.
+RNIsDeviceRooted.isDeviceRooted((err) => { console.log(err); },
+		(isRooted) => { console.log(isRooted); });
+		
+// Check if device has screenslock enabled.
+RNIsDeviceRooted.isDeviceLocked((err) => { console.log(err); },
+		(isLocked) => { console.log(isLocked); });
 ```
   

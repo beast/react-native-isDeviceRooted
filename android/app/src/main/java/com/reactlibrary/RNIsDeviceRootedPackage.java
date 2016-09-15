@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package my.fin.RNisDeviceSecured;
 
 import java.util.Arrays;
 import java.util.Collections;
