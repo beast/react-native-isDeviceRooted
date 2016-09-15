@@ -3,11 +3,11 @@
 
 ##Features
 ### Android
-[x] Check if the device is rooted.
-[x] Check if the device has screen lock enabled.
+- [x] Check if the device is rooted.
+- [x] Check if the device has screen lock enabled.
 ### iOS (WIP)
-[] Check if the device is jailbroken. 
-[] Check if the device has screen lock enabled.
+- [] Check if the device is jailbroken. 
+- [] Check if the device has screen lock enabled.
 
 ##Requirements
 ### Android
