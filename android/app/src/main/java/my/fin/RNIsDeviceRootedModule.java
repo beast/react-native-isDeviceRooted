@@ -1,5 +1,5 @@
 
-package my.fin.isDeviceRooted;
+package my.fin;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

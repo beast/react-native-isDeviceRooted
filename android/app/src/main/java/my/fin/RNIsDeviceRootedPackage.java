@@ -1,5 +1,5 @@
 
-package my.fin.RNisDeviceSecured;
+package my.fin;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -67,3 +67,6 @@ RNIsDeviceRooted.isDeviceLocked((err) => { console.log(err); },
  
 ##License 
 [MIT](./License)
+
+##Credit
+liamnichols - [UIDevice-Password](https://github.com/liamnichols/UIDevice-PasscodeStatus)
