@@ -43,7 +43,7 @@ RN 0.27+
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNIsDeviceRootedPackage;` to the imports at the top of the file
+  - Add `import my.fin.RNIsDeviceRootedPackage;` to the imports at the top of the file
   - Add `new RNIsDeviceRootedPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
