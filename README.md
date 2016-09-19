@@ -21,7 +21,7 @@ RN 0.27+
 
 ## Getting started
 
-`$ npm install react-native-is-device-rooted --save`
+`$ npm install react-native-isDeviceRooted --save`
 
 ### Mostly automatic installation
 
