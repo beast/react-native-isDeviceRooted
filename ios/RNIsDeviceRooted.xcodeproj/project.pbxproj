@@ -7,181 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B07D21EF113AFA2F07B2409A /* libPods-RNIsDeviceRooted.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CAA9D0789580985EC1BB13 /* libPods-RNIsDeviceRooted.a */; };
-		B3E7B58A1CC2AC0600A0062D /* RNIsDeviceRooted.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */; };
+		2D38EADB1D8FFBA8006EBD28 /* RNIsDeviceRooted.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D38EADA1D8FFBA8006EBD28 /* RNIsDeviceRooted.h */; };
+		2D38EADD1D8FFBA8006EBD28 /* RNIsDeviceRooted.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38EADC1D8FFBA8006EBD28 /* RNIsDeviceRooted.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+		2D38EAD51D8FFBA8006EBD28 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				2D38EADB1D8FFBA8006EBD28 /* RNIsDeviceRooted.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D80DF1B1EFC449508B6DF2E /* Pods-RNIsDeviceRooted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIsDeviceRooted.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNIsDeviceRooted/Pods-RNIsDeviceRooted.debug.xcconfig"; sourceTree = "<group>"; };
-		134814201AA4EA6300B7C361 /* libRNIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNIsDeviceRooted.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		52CAA9D0789580985EC1BB13 /* libPods-RNIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNIsDeviceRooted.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNIsDeviceRooted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNIsDeviceRooted.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNIsDeviceRooted.m; sourceTree = "<group>"; };
-		B895205C7E3D4DC55C172824 /* Pods-RNIsDeviceRooted.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNIsDeviceRooted.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNIsDeviceRooted/Pods-RNIsDeviceRooted.release.xcconfig"; sourceTree = "<group>"; };
+		2D38EAD71D8FFBA8006EBD28 /* libRNIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNIsDeviceRooted.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38EADA1D8FFBA8006EBD28 /* RNIsDeviceRooted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNIsDeviceRooted.h; sourceTree = "<group>"; };
+		2D38EADC1D8FFBA8006EBD28 /* RNIsDeviceRooted.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNIsDeviceRooted.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58B511D81A9E6C8500147676 /* Frameworks */ = {
+		2D38EAD41D8FFBA8006EBD28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B07D21EF113AFA2F07B2409A /* libPods-RNIsDeviceRooted.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F9CFF9F4773D0ACCC9A46E /* Pods */ = {
+		2D38EACE1D8FFBA8006EBD28 = {
 			isa = PBXGroup;
 			children = (
-				0D80DF1B1EFC449508B6DF2E /* Pods-RNIsDeviceRooted.debug.xcconfig */,
-				B895205C7E3D4DC55C172824 /* Pods-RNIsDeviceRooted.release.xcconfig */,
+				2D38EAD91D8FFBA8006EBD28 /* RNIsDeviceRooted */,
+				2D38EAD81D8FFBA8006EBD28 /* Products */,
 			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
-		134814211AA4EA7D00B7C361 /* Products */ = {
+		2D38EAD81D8FFBA8006EBD28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				134814201AA4EA6300B7C361 /* libRNIsDeviceRooted.a */,
+				2D38EAD71D8FFBA8006EBD28 /* libRNIsDeviceRooted.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58B511D21A9E6C8500147676 = {
+		2D38EAD91D8FFBA8006EBD28 /* RNIsDeviceRooted */ = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNIsDeviceRooted.h */,
-				B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */,
-				134814211AA4EA7D00B7C361 /* Products */,
-				02F9CFF9F4773D0ACCC9A46E /* Pods */,
-				65346315A4011E5AAF88E818 /* Frameworks */,
+				2D38EADA1D8FFBA8006EBD28 /* RNIsDeviceRooted.h */,
+				2D38EADC1D8FFBA8006EBD28 /* RNIsDeviceRooted.m */,
 			);
-			sourceTree = "<group>";
-		};
-		65346315A4011E5AAF88E818 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				52CAA9D0789580985EC1BB13 /* libPods-RNIsDeviceRooted.a */,
-			);
-			name = Frameworks;
+			path = RNIsDeviceRooted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58B511DA1A9E6C8500147676 /* RNIsDeviceRooted */ = {
+		2D38EAD61D8FFBA8006EBD28 /* RNIsDeviceRooted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */;
+			buildConfigurationList = 2D38EAE01D8FFBA8006EBD28 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */;
 			buildPhases = (
-				E5DB7C5EF10B6C32A544FBCF /* 📦 Check Pods Manifest.lock */,
-				58B511D71A9E6C8500147676 /* Sources */,
-				58B511D81A9E6C8500147676 /* Frameworks */,
-				58B511D91A9E6C8500147676 /* CopyFiles */,
-				C6EED920A8160071A87DEB7F /* 📦 Copy Pods Resources */,
+				2D38EAD31D8FFBA8006EBD28 /* Sources */,
+				2D38EAD41D8FFBA8006EBD28 /* Frameworks */,
+				2D38EAD51D8FFBA8006EBD28 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RNIsDeviceRooted;
-			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNIsDeviceRooted.a */;
+			productName = RNIsDeviceRooted;
+			productReference = 2D38EAD71D8FFBA8006EBD28 /* libRNIsDeviceRooted.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		58B511D31A9E6C8500147676 /* Project object */ = {
+		2D38EACF1D8FFBA8006EBD28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yang yao";
 				TargetAttributes = {
-					58B511DA1A9E6C8500147676 = {
-						CreatedOnToolsVersion = 6.1.1;
+					2D38EAD61D8FFBA8006EBD28 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNIsDeviceRooted" */;
+			buildConfigurationList = 2D38EAD21D8FFBA8006EBD28 /* Build configuration list for PBXProject "RNIsDeviceRooted" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 58B511D21A9E6C8500147676;
-			productRefGroup = 58B511D21A9E6C8500147676;
+			mainGroup = 2D38EACE1D8FFBA8006EBD28;
+			productRefGroup = 2D38EAD81D8FFBA8006EBD28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNIsDeviceRooted */,
+				2D38EAD61D8FFBA8006EBD28 /* RNIsDeviceRooted */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C6EED920A8160071A87DEB7F /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNIsDeviceRooted/Pods-RNIsDeviceRooted-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5DB7C5EF10B6C32A544FBCF /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		58B511D71A9E6C8500147676 /* Sources */ = {
+		2D38EAD31D8FFBA8006EBD28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNIsDeviceRooted.m in Sources */,
+				2D38EADD1D8FFBA8006EBD28 /* RNIsDeviceRooted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		58B511ED1A9E6C8500147676 /* Debug */ = {
+		2D38EADE1D8FFBA8006EBD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -195,33 +147,37 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		58B511EE1A9E6C8500147676 /* Release */ = {
+		2D38EADF1D8FFBA8006EBD28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -235,53 +191,40 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		58B511F01A9E6C8500147676 /* Debug */ = {
+		2D38EAE11D8FFBA8006EBD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D80DF1B1EFC449508B6DF2E /* Pods-RNIsDeviceRooted.debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNIsDeviceRooted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		58B511F11A9E6C8500147676 /* Release */ = {
+		2D38EAE21D8FFBA8006EBD28 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B895205C7E3D4DC55C172824 /* Pods-RNIsDeviceRooted.release.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNIsDeviceRooted;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -289,25 +232,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNIsDeviceRooted" */ = {
+		2D38EAD21D8FFBA8006EBD28 /* Build configuration list for PBXProject "RNIsDeviceRooted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58B511ED1A9E6C8500147676 /* Debug */,
-				58B511EE1A9E6C8500147676 /* Release */,
+				2D38EADE1D8FFBA8006EBD28 /* Debug */,
+				2D38EADF1D8FFBA8006EBD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */ = {
+		2D38EAE01D8FFBA8006EBD28 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58B511F01A9E6C8500147676 /* Debug */,
-				58B511F11A9E6C8500147676 /* Release */,
+				2D38EAE11D8FFBA8006EBD28 /* Debug */,
+				2D38EAE21D8FFBA8006EBD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+	rootObject = 2D38EACF1D8FFBA8006EBD28 /* Project object */;
 }

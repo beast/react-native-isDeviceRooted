@@ -1,3 +1,11 @@
+//
+//  RNIsDeviceRooted.h
+//  RNIsDeviceRooted
+//
+//  Created by yang yao on 19/09/2016.
+//  Copyright © 2016 yang yao. All rights reserved.
+//
+
 
 #import "RCTBridgeModule.h"
 
@@ -13,4 +21,3 @@ typedef NS_ENUM(NSUInteger, LNPasscodeStatus){
 @interface RNIsDeviceRooted : NSObject <RCTBridgeModule>
 
 @end
-  
