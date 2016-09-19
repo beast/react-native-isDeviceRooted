@@ -4,25 +4,25 @@
 
 @implementation RNIsDeviceRooted
 
-RCT_EXPORT_MODULE(RNIsDeviceRooted)
+RCT_EXPORT_MODULE(RNIsDeviceRooted);
 
-RCT_EXPORT_METHOD(isDeviceRooted:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(isDeviceLocked:(RCTResponseSenderBlock)callback)
 {
     // todo: import UIdevice passcodestatus then call the method to verify and return the callback to javascript
     LNPasscodeStatus status = [UIDevice currentDevice].passcodeStatus;
     
     switch (status) {
         case LNPasscodeStatusEnabled:
-            callback(@[[NSNull null], true]);
+            callback(@[[NSNull null], @true]);
             break;
             
         case LNPasscodeStatusDisabled:
-            callback(@[[NSNull null], false]);
+            callback(@[[NSNull null], @false]);
             break;
             
         case LNPasscodeStatusUnknown:
         default:
-            callback(@[[NSString @"Unable to retrieve the status of passcode."], null]);
+            callback(@[[NSString "Unable to retrieve the status of passcode."], null]);
             break;
     }
     
