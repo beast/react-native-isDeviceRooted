@@ -1,5 +1,5 @@
 
-# react-native-is-device-rooted (WIP)
+# react-native-isDeviceRooted (WIP)
 
 ##Features
 ### Android
@@ -25,7 +25,7 @@ RN 0.27+
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-is-device-rooted`
+`$ react-native link react-native-isDeviceRooted`
 
 ### Manual installation
 
@@ -33,7 +33,7 @@ RN 0.27+
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-is-device-rooted` and add `RNIsDeviceRooted.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-isDeviceRooted` and add `RNIsDeviceRooted.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNIsDeviceRooted.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Click A0RNLock.xcodeproj in the project navigator and go the Build Settings tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for Header Search Paths and make sure it contains $(SRCROOT)/../react-native/React, $(SRCROOT)/../../React, ${SRCROOT}/../../ios/Pods/Headers/Public and ${SRCROOT}/../../ios/Pods/Headers/Public/Lock - all marked as recursive.
 5. Inside your ios directory add a file named Podfile with the following content
@@ -47,17 +47,17 @@ RN 0.27+
   - Add `new RNIsDeviceRootedPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-is-device-rooted'
-  	project(':react-native-is-device-rooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-is-device-rooted/android/app')
+  	include ':react-native-isDeviceRooted'
+  	project(':react-native-isDeviceRooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-isDeviceRooted/android/app')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-is-device-rooted')
+      compile project(':react-native-isDeviceRooted')
   	```
 
 ## Usage
 ```javascript
-import RNIsDeviceRooted from 'react-native-is-device-rooted';
+import RNIsDeviceRooted from 'react-native-isDeviceRooted';
 
 // Check if device is rooted or jailbroken.
 RNIsDeviceRooted.isDeviceRooted((err) => { console.log(err); },
