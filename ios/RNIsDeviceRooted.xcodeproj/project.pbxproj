@@ -7,51 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D38EAB91D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D38EAB81D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.h */; };
-		2D38EABB1D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38EABA1D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.m */; };
-		B3E7B58A1CC2AC0600A0062D /* RNIsDeviceRooted.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */; };
+		2D38EAC81D8FF87F006EBD28 /* RNIsDeviceRooted.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D38EAC71D8FF87F006EBD28 /* RNIsDeviceRooted.h */; };
+		2D38EACA1D8FF87F006EBD28 /* RNIsDeviceRooted.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38EAC91D8FF87F006EBD28 /* RNIsDeviceRooted.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2D38EAB41D8FF54F006EBD28 /* CopyFiles */ = {
+		2D38EAC31D8FF87F006EBD28 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				2D38EAB91D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B511D91A9E6C8500147676 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
+				2D38EAC81D8FF87F006EBD28 /* RNIsDeviceRooted.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		134814201AA4EA6300B7C361 /* libRNIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRNIsDeviceRooted.a; path = "/Users/yangyao/Developer/react-native-isDeviceRooted/ios/build/Debug-iphoneos/libRNIsDeviceRooted.a"; sourceTree = "<absolute>"; };
-		2D38EAB61D8FF54F006EBD28 /* libReactNativeIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeIsDeviceRooted.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D38EAB81D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeIsDeviceRooted.h; sourceTree = "<group>"; };
-		2D38EABA1D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeIsDeviceRooted.m; sourceTree = "<group>"; };
-		B3E7B5881CC2AC0600A0062D /* RNIsDeviceRooted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNIsDeviceRooted.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNIsDeviceRooted.m; sourceTree = "<group>"; };
+		2D38EAC51D8FF87F006EBD28 /* libRNIsDeviceRooted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNIsDeviceRooted.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38EAC71D8FF87F006EBD28 /* RNIsDeviceRooted.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNIsDeviceRooted.h; sourceTree = "<group>"; };
+		2D38EAC91D8FF87F006EBD28 /* RNIsDeviceRooted.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNIsDeviceRooted.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2D38EAB31D8FF54F006EBD28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B511D81A9E6C8500147676 /* Frameworks */ = {
+		2D38EAC21D8FF87F006EBD28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,62 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D38EAB71D8FF54F006EBD28 /* ReactNativeIsDeviceRooted */ = {
+		2D38EAC61D8FF87F006EBD28 /* RNIsDeviceRooted */ = {
 			isa = PBXGroup;
 			children = (
-				2D38EAB81D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.h */,
-				2D38EABA1D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.m */,
+				2D38EAC71D8FF87F006EBD28 /* RNIsDeviceRooted.h */,
+				2D38EAC91D8FF87F006EBD28 /* RNIsDeviceRooted.m */,
 			);
-			path = ReactNativeIsDeviceRooted;
+			path = RNIsDeviceRooted;
 			sourceTree = "<group>";
 		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNIsDeviceRooted.h */,
-				B3E7B5891CC2AC0600A0062D /* RNIsDeviceRooted.m */,
-				2D38EAB61D8FF54F006EBD28 /* libReactNativeIsDeviceRooted.a */,
-				2D38EAB71D8FF54F006EBD28 /* ReactNativeIsDeviceRooted */,
+				2D38EAC51D8FF87F006EBD28 /* libRNIsDeviceRooted.a */,
+				2D38EAC61D8FF87F006EBD28 /* RNIsDeviceRooted */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D38EAB51D8FF54F006EBD28 /* ReactNativeIsDeviceRooted */ = {
+		2D38EAC41D8FF87F006EBD28 /* RNIsDeviceRooted */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D38EABC1D8FF54F006EBD28 /* Build configuration list for PBXNativeTarget "ReactNativeIsDeviceRooted" */;
+			buildConfigurationList = 2D38EACB1D8FF87F006EBD28 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */;
 			buildPhases = (
-				2D38EAB21D8FF54F006EBD28 /* Sources */,
-				2D38EAB31D8FF54F006EBD28 /* Frameworks */,
-				2D38EAB41D8FF54F006EBD28 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ReactNativeIsDeviceRooted;
-			productName = ReactNativeIsDeviceRooted;
-			productReference = 2D38EAB61D8FF54F006EBD28 /* libReactNativeIsDeviceRooted.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		58B511DA1A9E6C8500147676 /* RNIsDeviceRooted */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */;
-			buildPhases = (
-				E5DB7C5EF10B6C32A544FBCF /* 📦 Check Pods Manifest.lock */,
-				58B511D71A9E6C8500147676 /* Sources */,
-				58B511D81A9E6C8500147676 /* Frameworks */,
-				58B511D91A9E6C8500147676 /* CopyFiles */,
-				C6EED920A8160071A87DEB7F /* 📦 Copy Pods Resources */,
+				2D38EAC11D8FF87F006EBD28 /* Sources */,
+				2D38EAC21D8FF87F006EBD28 /* Frameworks */,
+				2D38EAC31D8FF87F006EBD28 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RNIsDeviceRooted;
-			productName = RCTDataManager;
-			productReference = 134814201AA4EA6300B7C361 /* libRNIsDeviceRooted.a */;
+			productName = RNIsDeviceRooted;
+			productReference = 2D38EAC51D8FF87F006EBD28 /* libRNIsDeviceRooted.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -128,11 +87,8 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
-					2D38EAB51D8FF54F006EBD28 = {
+					2D38EAC41D8FF87F006EBD28 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					58B511DA1A9E6C8500147676 = {
-						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -148,66 +104,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58B511DA1A9E6C8500147676 /* RNIsDeviceRooted */,
-				2D38EAB51D8FF54F006EBD28 /* ReactNativeIsDeviceRooted */,
+				2D38EAC41D8FF87F006EBD28 /* RNIsDeviceRooted */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C6EED920A8160071A87DEB7F /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNIsDeviceRooted/Pods-RNIsDeviceRooted-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5DB7C5EF10B6C32A544FBCF /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2D38EAB21D8FF54F006EBD28 /* Sources */ = {
+		2D38EAC11D8FF87F006EBD28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D38EABB1D8FF54F006EBD28 /* ReactNativeIsDeviceRooted.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58B511D71A9E6C8500147676 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNIsDeviceRooted.m in Sources */,
+				2D38EACA1D8FF87F006EBD28 /* RNIsDeviceRooted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2D38EABD1D8FF54F006EBD28 /* Debug */ = {
+		2D38EACC1D8FF87F006EBD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -222,7 +136,7 @@
 			};
 			name = Debug;
 		};
-		2D38EABE1D8FF54F006EBD28 /* Release */ = {
+		2D38EACD1D8FF87F006EBD28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
@@ -311,46 +225,14 @@
 			};
 			name = Release;
 		};
-		58B511F01A9E6C8500147676 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNIsDeviceRooted;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		58B511F11A9E6C8500147676 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNIsDeviceRooted;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D38EABC1D8FF54F006EBD28 /* Build configuration list for PBXNativeTarget "ReactNativeIsDeviceRooted" */ = {
+		2D38EACB1D8FF87F006EBD28 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D38EABD1D8FF54F006EBD28 /* Debug */,
-				2D38EABE1D8FF54F006EBD28 /* Release */,
+				2D38EACC1D8FF87F006EBD28 /* Debug */,
+				2D38EACD1D8FF87F006EBD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
@@ -359,15 +241,6 @@
 			buildConfigurations = (
 				58B511ED1A9E6C8500147676 /* Debug */,
 				58B511EE1A9E6C8500147676 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNIsDeviceRooted" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58B511F01A9E6C8500147676 /* Debug */,
-				58B511F11A9E6C8500147676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

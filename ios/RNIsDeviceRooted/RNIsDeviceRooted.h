@@ -1,4 +1,12 @@
+//
+//  RNIsDeviceRooted.h
+//  RNIsDeviceRooted
+//
+//  Created by yang yao on 19/09/2016.
+//  Copyright © 2016 Facebook. All rights reserved.
+//
 
+#import <Foundation/Foundation.h>
 #import "RCTBridgeModule.h"
 
 typedef NS_ENUM(NSUInteger, LNPasscodeStatus){
@@ -13,4 +21,3 @@ typedef NS_ENUM(NSUInteger, LNPasscodeStatus){
 @interface RNIsDeviceRooted : NSObject <RCTBridgeModule>
 
 @end
-  
