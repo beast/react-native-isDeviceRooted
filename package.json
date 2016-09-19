@@ -1,6 +1,6 @@
 {
   "name": "react-native-isDeviceRooted",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A React Native Library to check if a device is rooted or jailbroken. It also checks if screen lock is enabled",
   "main": "index.js",
   "scripts": {
