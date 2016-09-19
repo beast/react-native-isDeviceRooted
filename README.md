@@ -24,8 +24,9 @@ RN 0.27+
 `$ npm install react-native-isDeviceRooted --save`
 
 ### Mostly automatic installation
+Please follow manual instructions if this is not working. (iOS is not quite there yet. Suggestions welcome.)
 
-`$ react-native link react-native-isDeviceRooted`
+`$ rnpm link react-native-isDeviceRooted`
 
 ### Manual installation
 
@@ -35,10 +36,12 @@ RN 0.27+
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-isDeviceRooted` and add `RNIsDeviceRooted.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNIsDeviceRooted.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Click RNIsDeviceRooted.xcodeproj in the project navigator and go the Build Settings tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for Header Search Paths and make sure it contains $(SRCROOT)/../react-native/React, $(SRCROOT)/../../React, ${SRCROOT}/../../ios/Pods/Headers/Public and ${SRCROOT}/../../ios/Pods/Headers/Public/Lock - all marked as recursive.
-5. Inside your ios directory add a file named Podfile with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
+4. Click RNIsDeviceRooted.xcodeproj in the project navigator and go the **Build Settings** tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for **Header Search Paths** and make sure it contains $(SRCROOT)/../react-native/React, $(SRCROOT)/../../React, ${SRCROOT}/../../ios/Pods/Headers/Public marked as **recursive**.
+5. Inside your ios directory add a file named **Podfile** with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
 6. Run pod install --project-directory=ios
 7. Run react-native run-ios
+
+Note: If you are building inside of xcode, make sure you open the workspace file not the proejct file.
 
 #### Android
 
