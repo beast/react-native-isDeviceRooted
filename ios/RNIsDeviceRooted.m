@@ -1,12 +1,3 @@
-//
-//  RNIsDeviceRooted.m
-//  RNIsDeviceRooted
-//
-//  Created by yang yao on 19/09/2016.
-//  Copyright © 2016 yang yao. All rights reserved.
-//
-
-
 #import "RNIsDeviceRooted.h"
 #import "UIDevice+PasscodeStatus.h"
 
@@ -30,9 +21,10 @@ RCT_EXPORT_METHOD(isDeviceLocked:(RCTResponseSenderBlock)callback)
             
         case LNPasscodeStatusUnknown:
         default:
-            callback(@[[NSString "Unable to retrieve the status of passcode."], null]);
+            callback(@[@"Unable to retrieve the status of passcode.", @false]);
             break;
     }
     
 }
+
 @end
