@@ -6,7 +6,7 @@
 RCT_EXPORT_MODULE(RNIsDeviceRooted);
 
 RCT_REMAP_METHOD(isDeviceLocked,
-                 resolver:(RCTPromiseResolveBlock)resolve
+                 lockresolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
     
@@ -35,7 +35,7 @@ RCT_REMAP_METHOD(isDeviceLocked,
 }
 
 RCT_REMAP_METHOD(isDeviceRooted,
-                 resolver:(RCTPromiseResolveBlock)resolve
+                 rootresolver:(RCTPromiseResolveBlock)resolve
                  rejecter:(RCTPromiseRejectBlock)reject)
 {
     // todo: import UIdevice passcodestatus then call the method to verify and return the callback to javascript

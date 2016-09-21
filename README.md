@@ -37,7 +37,7 @@ Please follow manual instructions if this is not working.
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-isDeviceRooted` and add `RNIsDeviceRooted.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNIsDeviceRooted.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Click RNIsDeviceRooted.xcodeproj in the project navigator and go the **Build Settings** tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for **Header Search Paths** and make sure it contains:
+4. Click RNIsDeviceRooted.xcodeproj in the project navigator and go the **Build Settings** tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for **Header Search Paths** and make sure it contains the following and all marked as **recursive**:
 
 	**$(SRCROOT)/../../React  
 	$(SRCROOT)/../../react-native/React  
@@ -45,8 +45,8 @@ Please follow manual instructions if this is not working.
 	${SRCROOT}/../../react-native-isDeviceRooted/ios/Pods/Headers/Public/UIDevice-PasscodeStatus**
 
 5. Inside your ../node_modules/react-native-isDeviceRooted/ios directory add a file named **Podfile** with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
-6. Run pod install in the directory mentioned in step 5
-7. Run react-native run-ios
+6. Run pod install in the directory mentioned in step 5.
+7. Run react-native run-ios or build in Xcode.
 
 **Note: If you are building inside of xcode, make sure you open the workspace file not the proejct file.**
 
