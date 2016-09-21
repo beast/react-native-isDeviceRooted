@@ -27,24 +27,24 @@ public class RNIsDeviceRootedModule extends ReactContextBaseJavaModule {
 	}
 
 	@ReactMethod
-	public void isDeviceRooted(Callback errorCallback, Callback successCallback) {
+	public void isDeviceRooted(Promise promise) {
 		try {
 			boolean isRooted = checkRootMethod1() || checkRootMethod2() || checkRootMethod3();
-			successCallback.invoke(isRooted);
+			promise.resolve(isRooted);
 		}
 		catch (Exception e) {
-			errorCallback.invoke(e.getMessage());
+			promise.reject(e);
 		}
 	}
 
 	@ReactMethod
-	public void isDeviceLocked(Callback errorCallback,Callback successCallback) {
+	public void isDeviceLocked(Promise promise) {
 		try {
-			boolean isRooted = isLockScreenDisabled();
-			successCallback.invoke(isRooted);
+			boolean isLocked = isLockScreenDisabled();
+			promise.resolve(isLocked);
 		}
 		catch (Exception e) {
-			errorCallback.invoke(e.getMessage());
+			promise.reject(e);
 		}
 	}
 
