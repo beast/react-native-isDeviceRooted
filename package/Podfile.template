@@ -1,0 +1,3 @@
+#RNIsDeviceRooted
+
+pod 'UIDevice-PasscodeStatus', '~> 0.0.2'
