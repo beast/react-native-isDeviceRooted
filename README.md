@@ -7,7 +7,7 @@
 - [x] Check if the device has screen lock enabled.
   
 ### iOS (WIP)
-- [ ] Check if the device is jailbroken. 
+- [x] Check if the device is jailbroken. 
 - [x] Check if the device has screen lock enabled.
 
 ##Requirements
@@ -21,13 +21,13 @@ RN 0.27+
 
 ## Getting started
 
-`$ npm install react-native-isDeviceRooted --save`
+`$ npm install react-native-is-device-rooted --save`
 
 ### Mostly automatic installation
-Please follow manual instructions if this is not working.  
+Please follow manual instructions since rnpm only help with basic linking.  
 **Note: iOS will not automatically install because I am wrapping another library via cocoapods. Please follow manual instruction. (Suggestions welcome.)**
 
-`$ rnpm link react-native-isDeviceRooted`
+`$ rnpm link react-native-is-device-rooted`
 
 ## Manual installation
 
@@ -41,8 +41,8 @@ Please follow manual instructions if this is not working.
 
 	**$(SRCROOT)/../../React  
 	$(SRCROOT)/../../react-native/React  
-	${SRCROOT}/../../react-native-isDeviceRooted/ios/Pods/Headers/Public  
-	${SRCROOT}/../../react-native-isDeviceRooted/ios/Pods/Headers/Public/UIDevice-PasscodeStatus**
+	${SRCROOT}/../../react-native-is-device-rooted/ios/Pods/Headers/Public  
+	${SRCROOT}/../../react-native-is-device-rooted/ios/Pods/Headers/Public/UIDevice-PasscodeStatus**
 
 5. Inside your ../node_modules/react-native-isDeviceRooted/ios directory add a file named **Podfile** with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
 6. Run pod install in the directory mentioned in step 5.
@@ -65,6 +65,10 @@ If you get the following warning.
 ```
 
 Click `<YourAppName>.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). Look for `Other Linker Flags` and replace the value `-ObjC` with the value `$(inherited)` for your Application's Target.
+
+#### libpods Error
+If you received an libpods error for the RNIsDeviceRooted project, it's safe to remove under its build phases settings > Link binary with libraries
+
 
 ### Android
 
