@@ -90,24 +90,13 @@ If you received an libpods error for the RNIsDeviceRooted project, it's safe to 
 import RNIsDeviceRooted from 'react-native-isDeviceRooted';
 
 // Check if device is rooted or jailbroken.
-	async isDeviceRooted() {
-		try {
-			const result = await RNIsDeviceRooted.isDeviceRooted();
-			console.log(result);
-		} catch (e) {
-			console.error(e);
-		}
-	}
+		const isRooted = RNIsDeviceRooted.isDeviceRooted();
+		console.log(isRooted);
+
 		
 // Check if device has screenslock enabled.
-	async isDeviceLocked() {
-		try {
-			const result = await RNIsDeviceRooted.isDeviceLocked();
-			console.log(result);
-		} catch (e) {
-			console.error(e);
-		}
-	}
+		const isLocked = await RNIsDeviceRooted.isDeviceLocked();
+		console.log(isLocked);
 ```
  
 ##License 
