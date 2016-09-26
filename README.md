@@ -1,5 +1,6 @@
 
-# react-native-isDeviceRooted (WIP)
+# react-native-isDeviceRooted
+[![NPM](https://nodei.co/npm/react-native-is-device-rooted.png)](https://www.npmjs.com/package/react-native-is-device-rooted)
 
 ##Features
 ### Android
