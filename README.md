@@ -45,7 +45,7 @@ Please follow manual instructions since rnpm only help with basic linking.
 	${SRCROOT}/../../react-native-is-device-rooted/ios/Pods/Headers/Public  
 	${SRCROOT}/../../react-native-is-device-rooted/ios/Pods/Headers/Public/UIDevice-PasscodeStatus**
 
-5. Inside your ../node_modules/react-native-isDeviceRooted/ios directory add a file named **Podfile** with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
+5. Inside your {ReactNativeProject}/ios directory add a file named **Podfile** with the following [content](https://github.com/beast/react-native-isDeviceRooted/blob/master/Podfile.template)
 6. Run pod install in the directory mentioned in step 5.
 7. Run react-native run-ios or build in Xcode.
 
