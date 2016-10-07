@@ -78,17 +78,17 @@ If you received an libpods error for the RNIsDeviceRooted project, it's safe to 
   - Add `new RNIsDeviceRootedPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-isDeviceRooted'
-  	project(':react-native-isDeviceRooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-isDeviceRooted/android/app')
+  	include ':react-native-is-device-rooted'
+  	project(':react-native-is-device-rooted').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-is-device-rooted/android/app')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-isDeviceRooted')
+      compile project(':react-native-is-device-rooted')
   	```
 
 ## Usage
 ```javascript
-import RNIsDeviceRooted from 'react-native-isDeviceRooted';
+import RNIsDeviceRooted from 'react-native-is-device-rooted';
 
 // Check if device is rooted or jailbroken.
 		const isRooted = RNIsDeviceRooted.isDeviceRooted();
