@@ -57,7 +57,7 @@ RCT_REMAP_METHOD(isDeviceRooted,
 
 BOOL isJailbroken()
 {
-#if !(TARGET_IPHONE_SIMULATOR)
+#if !(TARGET_OS_SIMULATOR)
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Cydia.app"] ||
         [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/MobileSubstrate.dylib"] ||
