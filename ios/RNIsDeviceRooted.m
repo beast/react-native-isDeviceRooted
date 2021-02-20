@@ -60,6 +60,10 @@ BOOL isJailbroken()
 #if !(TARGET_IPHONE_SIMULATOR)
     
     if ([[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Cydia.app"] ||
+        [[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Sileo.app"] ||
+        [[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Zebra.app"] ||
+        [[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Saily.app"] ||
+        [[NSFileManager defaultManager] fileExistsAtPath:@"/Applications/Installer.app"] ||
         [[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/MobileSubstrate.dylib"] ||
         [[NSFileManager defaultManager] fileExistsAtPath:@"/bin/bash"] ||
         [[NSFileManager defaultManager] fileExistsAtPath:@"/usr/sbin/sshd"] ||
@@ -72,6 +76,10 @@ BOOL isJailbroken()
     FILE *f = NULL ;
     if ((f = fopen("/bin/bash", "r")) ||
         (f = fopen("/Applications/Cydia.app", "r")) ||
+        (f = fopen("/Applications/Sileo.app", "r")) ||
+        (f = fopen("/Applications/Zebra.app", "r")) ||
+        (f = fopen("/Applications/Saily.app", "r")) ||
+        (f = fopen("/Applications/Installer.app", "r")) ||
         (f = fopen("/Library/MobileSubstrate/MobileSubstrate.dylib", "r")) ||
         (f = fopen("/usr/sbin/sshd", "r")) ||
         (f = fopen("/etc/apt", "r")))  {
